@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{16E7D1C3-8192-4976-9194-5CF3CE41E19E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90021F54-00C0-4228-BA5A-32020AC64F07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EDF55AD6-1EFA-48A2-B4C5-E3DB4752550A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D1F2C64-E88A-49F8-96F0-22E49CC3B4D8} = {90021F54-00C0-4228-BA5A-32020AC64F07}
+		{16E7D1C3-8192-4976-9194-5CF3CE41E19E} = {90021F54-00C0-4228-BA5A-32020AC64F07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2363487F-3917-469C-AF83-CA16C12031F7}
