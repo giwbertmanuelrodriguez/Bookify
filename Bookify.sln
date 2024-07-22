@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90021F54-00C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EDF55AD6-1EFA-48A2-B4C5-E3DB4752550A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infraestructure", "Bookify.Infraestructure\Bookify.Infraestructure.csproj", "{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infraestructure\Bookify.Infrastructure.csproj", "{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

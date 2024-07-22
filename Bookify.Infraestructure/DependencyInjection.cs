@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bookify.Infraestructure;
+namespace Bookify.Infrastructure;
 
 public static class DependencyInjection
 {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bookify.Infraestructure.Configurations;
+namespace Bookify.Infrastructure.Configurations;
 
 internal sealed class ApartmentConfiguration : IEntityTypeConfiguration<Apartment>
 {

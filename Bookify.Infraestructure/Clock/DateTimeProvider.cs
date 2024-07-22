@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bookify.Infraestructure.Clock;
+namespace Bookify.Infrastructure.Clock;
 
 internal sealed class DateTimeProvider : IDateTimeProvider
 {
