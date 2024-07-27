@@ -5,13 +5,15 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{8D1F2C64-E88A-49F8-96F0-22E49CC3B4D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{16E7D1C3-8192-4976-9194-5CF3CE41E19E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{16E7D1C3-8192-4976-9194-5CF3CE41E19E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90021F54-00C0-4228-BA5A-32020AC64F07}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EDF55AD6-1EFA-48A2-B4C5-E3DB4752550A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infraestructure\Bookify.Infrastructure.csproj", "{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Infrastructure", "Bookify.Infraestructure\Bookify.Infrastructure.csproj", "{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Api\Bookify.Api.csproj", "{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{8D1F2C64-E88A-49F8-96F0-22E49CC3B4D8} = {90021F54-00C0-4228-BA5A-32020AC64F07}
 		{16E7D1C3-8192-4976-9194-5CF3CE41E19E} = {90021F54-00C0-4228-BA5A-32020AC64F07}
 		{31A4ACDD-C6BD-4418-8BB5-0C60DF5839E9} = {90021F54-00C0-4228-BA5A-32020AC64F07}
+		{ED9A98DE-6C58-43DE-8D2A-3FDA1B3CC89C} = {90021F54-00C0-4228-BA5A-32020AC64F07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2363487F-3917-469C-AF83-CA16C12031F7}
